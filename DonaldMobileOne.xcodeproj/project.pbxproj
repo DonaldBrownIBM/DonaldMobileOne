@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		701E37901D22083D00E4FAFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E378F1D22083D00E4FAFC /* AppDelegate.swift */; };
+		701E37921D22083D00E4FAFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E37911D22083D00E4FAFC /* ViewController.swift */; };
+		701E37951D22083D00E4FAFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701E37931D22083D00E4FAFC /* Main.storyboard */; };
+		701E37971D22083D00E4FAFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701E37961D22083D00E4FAFC /* Assets.xcassets */; };
+		701E379A1D22083D00E4FAFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701E37981D22083D00E4FAFC /* LaunchScreen.storyboard */; };
+		701E37A51D22083D00E4FAFC /* DonaldMobileOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E37A41D22083D00E4FAFC /* DonaldMobileOneTests.swift */; };
+		701E37B01D22083D00E4FAFC /* DonaldMobileOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E37AF1D22083D00E4FAFC /* DonaldMobileOneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		701E37A11D22083D00E4FAFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 701E37841D22083D00E4FAFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 701E378B1D22083D00E4FAFC;
+			remoteInfo = DonaldMobileOne;
+		};
+		701E37AC1D22083D00E4FAFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 701E37841D22083D00E4FAFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 701E378B1D22083D00E4FAFC;
+			remoteInfo = DonaldMobileOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		701E378C1D22083D00E4FAFC /* DonaldMobileOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonaldMobileOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		701E378F1D22083D00E4FAFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		701E37911D22083D00E4FAFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		701E37941D22083D00E4FAFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		701E37961D22083D00E4FAFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		701E37991D22083D00E4FAFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		701E379B1D22083D00E4FAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		701E37A01D22083D00E4FAFC /* DonaldMobileOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonaldMobileOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		701E37A41D22083D00E4FAFC /* DonaldMobileOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonaldMobileOneTests.swift; sourceTree = "<group>"; };
+		701E37A61D22083D00E4FAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		701E37AB1D22083D00E4FAFC /* DonaldMobileOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonaldMobileOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		701E37AF1D22083D00E4FAFC /* DonaldMobileOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonaldMobileOneUITests.swift; sourceTree = "<group>"; };
+		701E37B11D22083D00E4FAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		701E37891D22083D00E4FAFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701E379D1D22083D00E4FAFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701E37A81D22083D00E4FAFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		701E37831D22083D00E4FAFC = {
+			isa = PBXGroup;
+			children = (
+				701E378E1D22083D00E4FAFC /* DonaldMobileOne */,
+				701E37A31D22083D00E4FAFC /* DonaldMobileOneTests */,
+				701E37AE1D22083D00E4FAFC /* DonaldMobileOneUITests */,
+				701E378D1D22083D00E4FAFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		701E378D1D22083D00E4FAFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				701E378C1D22083D00E4FAFC /* DonaldMobileOne.app */,
+				701E37A01D22083D00E4FAFC /* DonaldMobileOneTests.xctest */,
+				701E37AB1D22083D00E4FAFC /* DonaldMobileOneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		701E378E1D22083D00E4FAFC /* DonaldMobileOne */ = {
+			isa = PBXGroup;
+			children = (
+				701E378F1D22083D00E4FAFC /* AppDelegate.swift */,
+				701E37911D22083D00E4FAFC /* ViewController.swift */,
+				701E37931D22083D00E4FAFC /* Main.storyboard */,
+				701E37961D22083D00E4FAFC /* Assets.xcassets */,
+				701E37981D22083D00E4FAFC /* LaunchScreen.storyboard */,
+				701E379B1D22083D00E4FAFC /* Info.plist */,
+			);
+			path = DonaldMobileOne;
+			sourceTree = "<group>";
+		};
+		701E37A31D22083D00E4FAFC /* DonaldMobileOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				701E37A41D22083D00E4FAFC /* DonaldMobileOneTests.swift */,
+				701E37A61D22083D00E4FAFC /* Info.plist */,
+			);
+			path = DonaldMobileOneTests;
+			sourceTree = "<group>";
+		};
+		701E37AE1D22083D00E4FAFC /* DonaldMobileOneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				701E37AF1D22083D00E4FAFC /* DonaldMobileOneUITests.swift */,
+				701E37B11D22083D00E4FAFC /* Info.plist */,
+			);
+			path = DonaldMobileOneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		701E378B1D22083D00E4FAFC /* DonaldMobileOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701E37B41D22083D00E4FAFC /* Build configuration list for PBXNativeTarget "DonaldMobileOne" */;
+			buildPhases = (
+				701E37881D22083D00E4FAFC /* Sources */,
+				701E37891D22083D00E4FAFC /* Frameworks */,
+				701E378A1D22083D00E4FAFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonaldMobileOne;
+			productName = DonaldMobileOne;
+			productReference = 701E378C1D22083D00E4FAFC /* DonaldMobileOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		701E379F1D22083D00E4FAFC /* DonaldMobileOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701E37B71D22083D00E4FAFC /* Build configuration list for PBXNativeTarget "DonaldMobileOneTests" */;
+			buildPhases = (
+				701E379C1D22083D00E4FAFC /* Sources */,
+				701E379D1D22083D00E4FAFC /* Frameworks */,
+				701E379E1D22083D00E4FAFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				701E37A21D22083D00E4FAFC /* PBXTargetDependency */,
+			);
+			name = DonaldMobileOneTests;
+			productName = DonaldMobileOneTests;
+			productReference = 701E37A01D22083D00E4FAFC /* DonaldMobileOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		701E37AA1D22083D00E4FAFC /* DonaldMobileOneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701E37BA1D22083D00E4FAFC /* Build configuration list for PBXNativeTarget "DonaldMobileOneUITests" */;
+			buildPhases = (
+				701E37A71D22083D00E4FAFC /* Sources */,
+				701E37A81D22083D00E4FAFC /* Frameworks */,
+				701E37A91D22083D00E4FAFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				701E37AD1D22083D00E4FAFC /* PBXTargetDependency */,
+			);
+			name = DonaldMobileOneUITests;
+			productName = DonaldMobileOneUITests;
+			productReference = 701E37AB1D22083D00E4FAFC /* DonaldMobileOneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		701E37841D22083D00E4FAFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Donald Brown";
+				TargetAttributes = {
+					701E378B1D22083D00E4FAFC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					701E379F1D22083D00E4FAFC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 701E378B1D22083D00E4FAFC;
+					};
+					701E37AA1D22083D00E4FAFC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 701E378B1D22083D00E4FAFC;
+					};
+				};
+			};
+			buildConfigurationList = 701E37871D22083D00E4FAFC /* Build configuration list for PBXProject "DonaldMobileOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 701E37831D22083D00E4FAFC;
+			productRefGroup = 701E378D1D22083D00E4FAFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				701E378B1D22083D00E4FAFC /* DonaldMobileOne */,
+				701E379F1D22083D00E4FAFC /* DonaldMobileOneTests */,
+				701E37AA1D22083D00E4FAFC /* DonaldMobileOneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		701E378A1D22083D00E4FAFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701E379A1D22083D00E4FAFC /* LaunchScreen.storyboard in Resources */,
+				701E37971D22083D00E4FAFC /* Assets.xcassets in Resources */,
+				701E37951D22083D00E4FAFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701E379E1D22083D00E4FAFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701E37A91D22083D00E4FAFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		701E37881D22083D00E4FAFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701E37921D22083D00E4FAFC /* ViewController.swift in Sources */,
+				701E37901D22083D00E4FAFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701E379C1D22083D00E4FAFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701E37A51D22083D00E4FAFC /* DonaldMobileOneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701E37A71D22083D00E4FAFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701E37B01D22083D00E4FAFC /* DonaldMobileOneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		701E37A21D22083D00E4FAFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 701E378B1D22083D00E4FAFC /* DonaldMobileOne */;
+			targetProxy = 701E37A11D22083D00E4FAFC /* PBXContainerItemProxy */;
+		};
+		701E37AD1D22083D00E4FAFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 701E378B1D22083D00E4FAFC /* DonaldMobileOne */;
+			targetProxy = 701E37AC1D22083D00E4FAFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		701E37931D22083D00E4FAFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				701E37941D22083D00E4FAFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		701E37981D22083D00E4FAFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				701E37991D22083D00E4FAFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		701E37B21D22083D00E4FAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		701E37B31D22083D00E4FAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		701E37B51D22083D00E4FAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DonaldMobileOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Innovators.DonaldMobileOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		701E37B61D22083D00E4FAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DonaldMobileOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Innovators.DonaldMobileOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		701E37B81D22083D00E4FAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DonaldMobileOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Innovators.DonaldMobileOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonaldMobileOne.app/DonaldMobileOne";
+			};
+			name = Debug;
+		};
+		701E37B91D22083D00E4FAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DonaldMobileOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Innovators.DonaldMobileOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonaldMobileOne.app/DonaldMobileOne";
+			};
+			name = Release;
+		};
+		701E37BB1D22083D00E4FAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DonaldMobileOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Innovators.DonaldMobileOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DonaldMobileOne;
+			};
+			name = Debug;
+		};
+		701E37BC1D22083D00E4FAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DonaldMobileOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Innovators.DonaldMobileOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DonaldMobileOne;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		701E37871D22083D00E4FAFC /* Build configuration list for PBXProject "DonaldMobileOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701E37B21D22083D00E4FAFC /* Debug */,
+				701E37B31D22083D00E4FAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		701E37B41D22083D00E4FAFC /* Build configuration list for PBXNativeTarget "DonaldMobileOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701E37B51D22083D00E4FAFC /* Debug */,
+				701E37B61D22083D00E4FAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		701E37B71D22083D00E4FAFC /* Build configuration list for PBXNativeTarget "DonaldMobileOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701E37B81D22083D00E4FAFC /* Debug */,
+				701E37B91D22083D00E4FAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		701E37BA1D22083D00E4FAFC /* Build configuration list for PBXNativeTarget "DonaldMobileOneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701E37BB1D22083D00E4FAFC /* Debug */,
+				701E37BC1D22083D00E4FAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 701E37841D22083D00E4FAFC /* Project object */;
+}
